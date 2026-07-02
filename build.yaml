@@ -1,0 +1,14 @@
+include:
+  - board: nice_nano@2.0.0//zmk
+    shield: keyball39_left
+    artifact-name: keyball39_left-nice_nano_v2
+    snippet: studio-rpc-usb-uart
+
+  - board: nice_nano@2.0.0//zmk
+    shield: keyball39_right
+    artifact-name: keyball39_right-nice_nano_v2
+
+  - board: nice_nano@2.0.0//zmk
+    shield: keyball39_dongle
+    artifact-name: keyball39_dongle-nice_nano_v2
+    snippet: studio-rpc-usb-uart
